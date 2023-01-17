@@ -1,0 +1,102 @@
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-family: serif;
+	font-size: 3rem;
+	text-align: center;
+}
+
+h1 {
+	font-style: bold;
+	margin-bottom: 0.15rem;
+}
+
+header div h2 {
+	font-size: 0.4rem;
+	font-weight: 600;
+	color: #454545;
+	margin-bottom: 2rem;		
+}
+
+table {
+	box-shadow: 5px 5px 8px 8px #DDDDDD;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr{
+	font-size: 1rem;
+}
+
+table tr:nth-child(odd) {
+	background: rgba(0, 64, 164, 0.2);
+}
+
+table th,
+table td{
+	border: 1px solid rgba(0, 64, 128, 0.5)	;
+	text-align: center;
+	vertical-align: middle;
+	height: 2rem;
+}
+
+table tr:first-child {
+	font-weight: bold;
+}
+
+table td:first-child {
+	font-weight: bold;
+}
+
+table th{
+	background: rgba(0, 64, 164, 0.9);
+	color: #FFFFFF;
+}
+
+tfoot td {
+	font-weight: bold;
+}
+
+div table {
+	margin-bottom: 50px;
+}
+
+@media (min-width: 769px) {
+  
+	body {
+	  color: #333;
+	}
+  
+	p, h3, li, a {
+	  color: #333;
+	}
+  
+  }
+
+  @media (max-width: 768px) {
+
+	nav {
+	  width: 30vw;
+	}
+  
+	article {
+	  width: 70vw;
+	}
+	
+  }
+
+  @media (max-width: 425px){
+
+    header,
+	footer {
+      width: 100%;
+	  text-align: center;
+	  display: inline;
+	  display: inline-block;
+	  float:inline-start ;
+    }
+}
+

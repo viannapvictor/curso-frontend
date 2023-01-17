@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+}
+
+html{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #ccc;
+}
+
+h1, h2, p, li{
+	font-family: Arial, Helvetic, sans-serif;
+	color: #454545;
+}
+
+p{
+	font-size: 1.6rem;
+	color: white;
+}
+
+h2{
+	font-size: 2rem;
+	color: white;
+}
+
+section h2 {
+	font-size: 2rem;
+	color: #454545;
+	margin-bottom: 15px;
+}
+
+form div{
+	background: #ccc;
+	padding: 2rem;
+	border: 0;
+	border-bottom: 1px solid #454545;
+	position: relative;
+	margin-top: -10px;
+}
+
+label, div textarea{
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	color: #454545;
+	font-weight: 700;
+}
+
+input, div textarea{
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+	width: 100%;
+	display: block;
+}
+
+header {
+	background-color: #aaa;
+	padding: 30px 0 30px 0;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 60%;
+	background-color: #ddd;
+}
+
+section::after {
+	background: #ddd;
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	background-color: #aaa;
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+@media (min-width: 769px) {
+  
+	body {
+	  color: #333;
+	}
+  
+	p, h3, li, a {
+	  color: #333;
+	}
+  
+  }
+
+  @media (max-width: 768px) {
+
+	body {
+		background-color: teal;
+	}
+
+	nav {
+	  width: 30vw;
+	}
+  
+	article {
+	  width: 70vw;
+	}
+	
+  }
+
+  @media (max-width: 425px){
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+
+	body {
+		background-color: teal;
+	}
+
+    nav,
+    article,
+    header,
+	footer {
+      width: 100%;
+      min-width: 320px;S
+    }
+}
