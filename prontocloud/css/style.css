@@ -131,3 +131,19 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+.cognito {
+    height: 350px !important;
+    overflow: hidden !important;
+}
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }  
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
