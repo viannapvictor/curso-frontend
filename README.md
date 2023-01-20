@@ -65,3 +65,8 @@ O respositório resolve os conflitos automaticamente
 ### configura o GitFlow
 > git flow init
 > git flow feature start {nome-da-feature}
+
+### Links e encurtadores
+> bitly: http://bit.ly/3D1GtbT
+> infinity domain: http://prontocloud.epizy.com/
+> Meu github: https://github.com/viannapvictor/curso-frontend.git
