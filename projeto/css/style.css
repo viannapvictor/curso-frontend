@@ -1,0 +1,36 @@
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+section {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+body{
+    background-color: rgba(70,0,128,.7);
+    color: white;
+    font-weight: 700;
+}
+
+header {
+    background-color:rgba(70,0,128,.85) ;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    vertical-align: center;
+    padding-top: .6rem;
+}
+
+.nav-link {
+    color: white;
+    font-style: bold;
+}
+
