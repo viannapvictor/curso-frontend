@@ -21,7 +21,7 @@
                         <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contatos">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cadastro.html">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,11 +33,44 @@
             <div class="row">
                 <div class="col-md-5 col-sm-12">
                     <h2>Sobre nós</h2>
-                    <p>Somos um bar especializado no seu gosto. Temos todos os tipos de Drinks que vc imaginar ou quiser criar, o que importa é sua felicidade.</p>
-                    <a class="btn btn-lg btn-success">Botão</a>
+                    <p>Somos um bar especializado no seu gosto. Temos todos os tipos de Drinks que vc imaginar ou quiser criar, o que importa é sua felicidade. Contamos com uma a tradicionalidade local e com um ambiente sofisticado para atender a nossa clientela da melhor maneira!</p>
                 </div>
                 <div class="col-md-7 col-sm-12">
-                    <img src="../images/general_bar.jpg" alt="Imagem Exemplo" class="img-fluid">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="ratio ratio-21x9">  
+                                    <img src="../images/sof2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-caption">
+                                    <h5></h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="ratio ratio-21x9">  
+                                    <img src="../images/general_bar.jpg" class="d-block w-100 opacity-75" alt="...">
+                                </div>
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="ratio ratio-21x9">  
+                                    <img src="../images/sof1.jpg" class="d-block w-100 opacity-75" alt="...">
+                                </div>
+                                <div class="carousel-caption">
+                                    <h5 class="text-sm-center">Desde 1995</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,38 +116,6 @@
         </div>
 
     </section>
-
-    <section id="contatos">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <h2>Contato</h2>
-                    <p>Seu feedback é essencial e nos ensina a sermos melhores.</p>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <form class="form">
-
-                        <div class="input-group">
-                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome">
-                        </div>
-
-                        <div class="input-group">
-                            <input class="form-control" type="text" name="email" placeholder="Digite seu email">
-                        </div>
-
-                        <div class="input-group">
-                            <textarea  class="form-control" name="" rows="5" placeholder="Resuma sua experiência conosco. Queremos te ouvir."></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-lg btn-success">Enviar</button>
-
-                    </form>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <div class="modal fade" id="modal-1">
         <div class="modal-dialog">

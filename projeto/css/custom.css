@@ -1,0 +1,9 @@
+textarea.form-control {
+    width: 100% !important;
+    display: block;
+}
+
+.modal-body h6,
+.modal-title  {
+    color: #999;
+}
