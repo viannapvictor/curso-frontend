@@ -1,12 +1,13 @@
+"use strict"
 
-
-function Person() {
+function Pessoa() {
 
     this.idade = 0
 
     setInterval(() => {
         console.log(this.idade++)
-    }, 500);
+    }, 2000);
+
 }
 
-const p1 = new Person()
+const p1 = new Pessoa()
